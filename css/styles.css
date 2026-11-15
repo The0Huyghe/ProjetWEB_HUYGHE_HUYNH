@@ -221,3 +221,12 @@ main h2{
     font-weight: bold;
     margin-top: 10px;
 }
+
+.perso
+{
+	display: block;
+	height: 400px;
+	width: 400px;
+	object-fit: cover;
+	margin: 0 auto;
+}
