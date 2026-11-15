@@ -1,0 +1,207 @@
+@charset "utf-8";
+
+*{
+	margin:0;
+	padding:0;
+}
+@font-face {
+  
+  font-family: 'policetitres';
+  src: url('../polices/GIL.TTF');
+}
+@font-face{
+	font-family: 'Berlin';
+  src: url('../polices/BRLNSR.TTF');
+}
+
+
+@media (min-width: 1351px) {
+
+nav{
+	position:fixed;
+	display:block;
+	width:11em;
+	left:0;
+	top:0;
+	border-right:solid 1px black;
+	height:100vh;
+	background-color:#9bffc2 ;
+	padding:0.5em;
+}
+
+
+nav a.bouton{
+	display:block;
+	box-shadow: 3px 4px 0px 0px transparent ;
+	background-color:#070f09;
+	border-radius:32px;
+	border:1px solid #000000;
+	cursor:pointer;
+	color:#12eb94;
+	font-family:'policetitres';
+	font-size:21px;
+	padding:19px 33px;
+	text-decoration:none;
+	margin-top:2vh;
+}
+
+nav a.bouton.ici{
+	box-shadow: 3px 4px 0px 0px #2e9c0f;
+
+}
+
+section{
+    display: block;
+    background-color: #474B4EFF;
+    margin: 12px;
+	padding: 3px	;
+
+}
+
+footer{
+	margin-left:12em;
+    background-color: #474B4EFF;
+}
+
+footer p{
+	color:black;
+	font-family:'Berlin';
+}
+main{
+	margin-left:12em;
+	min-height:100vh;
+	max-height:none;
+	max-width: 95%;
+}
+
+main h1{
+	Color:#9bffc2;
+	text-decoration:underline;
+	font-size:50px;
+	font-family:'policetitres';
+	text-align:center;
+	padding-top:2%;
+}
+main h2{
+	Color:#9bffc2;
+	font-size:35px;
+	font-family:'policetitres';
+	text-align:center;
+}
+
+}
+
+@media (min-width: 801px) 
+    and (max-width: 1350px) {
+    nav{
+	position:absolute;
+	display:block;
+	width:100%;
+	left:0;
+	top:0;
+	height:auto;
+	background-color:#9bffc2 ;
+	/*padding:0.5em;*/
+}
+
+
+nav a.bouton{
+	display:inline-block;
+	width:10.5vw;
+	box-shadow: 3px 4px 0px 0px transparent ;
+	background-color:#070f09;
+	border-radius:32px;
+	border:1px solid #000000;
+	cursor:pointer;
+	color:#12eb94;
+	font-family:'policetitres';
+	font-size:15px;
+	padding:10px 15px;
+	text-decoration:none;
+	margin-top:2vh;
+	margin-left:1%;
+}
+
+nav a.bouton.ici{
+	box-shadow: 3px 4px 0px 0px #2e9c0f;
+
+}
+main{
+	margin-top:5em;
+	background-color:#19211e;
+	min-height:100vh;
+	max-height:none;
+}
+
+main h1{
+	Color:#9bffc2;
+	text-decoration:underline;
+	font-size:50px;
+	font-family:'policetitres';
+	text-align:center;
+	padding-top:2%;
+}
+main h2{
+	Color:#9bffc2;
+	font-size:35px;
+	font-family:'policetitres';
+	text-align:center;
+}
+  }
+  @media (max-width: 800px) {
+    nav{
+	position:absolute;
+	display:block;
+	width:100%;
+	left:0;
+	top:0;
+	height:45%;
+	background-color:#9bffc2 ;
+	/*padding:0.5em;*/
+}
+
+
+nav a.bouton{
+	display:block;
+	
+	box-shadow: 3px 4px 0px 0px transparent ;
+	background-color:#070f09;
+	border-radius:32px;
+	border:1px solid #000000;
+	cursor:pointer;
+	color:#12eb94;
+	font-family:'policetitres';
+	font-size:21px;
+	padding:19px 33px;
+	text-decoration:none;
+	margin-top:2vh;
+	margin-left:5vw;
+	margin-right:5vw;
+}
+nav a.bouton.ici{
+	box-shadow: 3px 4px 0px 0px #2e9c0f;
+
+}
+
+main{
+	margin-top:25.4em;
+	background-color:#19211e;
+	min-height:100vh;
+	max-height:none;
+}
+
+main h1{
+	Color:#9bffc2;
+	text-decoration:underline;
+	font-size:50px;
+	font-family:'policetitres';
+	text-align:center;
+	padding-top:2%;
+}
+main h2{
+	Color:#9bffc2;
+	font-size:35px;
+	font-family:'policetitres';
+	text-align:center;
+}
+  }
