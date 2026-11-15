@@ -53,7 +53,7 @@ nav a.bouton.ici{
 
 section{
     display: block;
-    background-color: #474B4EFF;
+    background-color: rgb(120, 126, 131);
     margin: 12px;
 	padding: 3px	;
 
@@ -61,7 +61,7 @@ section{
 
 footer{
 	margin-left:12em;
-    background-color: #474B4EFF;
+    background-color: rgb(120, 126, 131);
 }
 
 footer p{
@@ -127,6 +127,23 @@ nav a.bouton.ici{
 	box-shadow: 3px 4px 0px 0px #2e9c0f;
 
 }
+
+section{
+    display: block;
+    background-color: rgb(120, 126, 131);
+    margin: 12px;
+	padding: 3px	;
+
+}
+
+footer{
+    background-color: rgb(120, 126, 131);
+}
+
+footer p{
+	color:black;
+	font-family:'Berlin';
+}
 main{
 	margin-top:5em;
 	background-color:#19211e;
@@ -183,7 +200,22 @@ nav a.bouton.ici{
 	box-shadow: 3px 4px 0px 0px #2e9c0f;
 
 }
+section{
+    display: block;
+    background-color: rgb(120, 126, 131);
+    margin: 12px;
+	padding: 3px	;
 
+}
+
+footer{
+    background-color: rgb(120, 126, 131);
+}
+
+footer p{
+	color:black;
+	font-family:'Berlin';
+}
 main{
 	margin-top:25.4em;
 	background-color:#19211e;
@@ -221,6 +253,29 @@ main h2{
     font-weight: bold;
     margin-top: 10px;
 }
+
+  .relique{
+	max-height: 400px;
+	margin: 15px;
+  }
+
+  .carte{
+	max-height: 400px;
+	margin: 15px;
+  }
+
+  .conteneur{
+	display: grid;
+	place-items: center;
+  }
+  
+  div h3{
+	background-color: #4d5f5f;
+  }
+
+  div p{
+	background-color: #4d5f5f;
+  }
 
 .perso
 {
