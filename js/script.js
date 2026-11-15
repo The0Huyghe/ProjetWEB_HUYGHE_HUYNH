@@ -11,3 +11,12 @@ function clearRadio(values) {
         }
     });
 }
+
+function envoyerFormulaire() {
+    document.getElementById("message").textContent =
+        "Formulaire envoyé !";
+}
+
+function clearFormulaire() {
+    document.getElementById("Formulaire").reset();
+}

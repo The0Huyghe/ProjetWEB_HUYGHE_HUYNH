@@ -15,6 +15,7 @@
 }
 
 
+
 @media (min-width: 1351px) {
 
 nav{
@@ -205,6 +206,21 @@ main h2{
 	text-align:center;
 }
   }
+
+.Ancient
+{
+	display: block;
+	height: 400px;
+	width: 400px;
+	object-fit: cover;
+	margin: 0 auto;
+}
+
+#message {
+    color: green;
+    font-weight: bold;
+    margin-top: 10px;
+}
 
   .relique{
 	max-height: 400px;

@@ -9,18 +9,18 @@
     <body background="../img/Background.png">
         
         <header>
+            
 
             <nav>
                 <a class="bouton" href="../index.html">Accueil</a>
                 <a class="bouton" href="./personnages.html">les personnages</a>
                 <a class="bouton" href="./evenements.html">les évênements</a>
                 <a class="bouton" href="./actes.html">les actes</a>
-                <a class="bouton" href="./boutique.html">fonctionnement de la boutique</a>
                 <a class="bouton" href="./proposition_modif.html">proposition de modification</a>
                 <a class="bouton" href="./a_propos.html">A propos</a>
             </nav>
         </header>
-
+        <main>
         <h1>
             submit bouton -> clear toute la page
             chatbox 
@@ -29,7 +29,7 @@
 
         <section>
             <fieldset>
-                <form>
+                <form id="Formulaire">
                     <ul>
                         <li>
                             <label for="email"> Adresse mail :</label>
@@ -89,15 +89,26 @@
                 </form>
             </fieldset>
             <fieldset>
-                <label for="commentaire"> Précisions : </label>
-                <textarea id="commentaire name="commentaire" rows="5" cols="40"
-                    placeholder="Écrivez le smodifications souhaitées ici..."></textarea>
+                <form id="Formulaire">
+
+                    <label for="commentaire"> Précisions : </label>
+                    <textarea id="Formulaire" name="commentaire" rows="4" cols="60" placeholder="Écrivez les modifications souhaitées ici..."></textarea>
+
+                    <p id="message"></p>
+
+                </form>
             </fieldset>
-            
+            <button type="button" onclick="radioclick(0);clearRadio(['2','21','22','23','24','1','11','12','13','14']);envoyerFormulaire();clearFormulaire();">
+                Envoyer le formulaire
+            </button>
                 
+            
         </section>
 
+        </main>
+
         <footer>
+
             <p>©️2026 Theo HUYGHE Lucas HUYNH.</p>
             <p>Tous droits réservés.</p>
         </footer>
