@@ -13,16 +13,185 @@
                 <a class="bouton" href="./personnages.html">les personnages</a>
                 <a class="bouton" href="./evenements.html">les évênements</a>
                 <a class="bouton" href="./actes.html">les actes</a>
-                <a class="bouton" href="./boutique.html">fonctionnement de la boutique</a>
                 <a class="bouton" href="./proposition_modif.html">proposition de modification</a>
                 <a class="bouton" href="./a_propos.html">A propos</a>
             </nav>
         </header>
         
-        <h1>Les evênements</h1>
         
+
         <main>
-            
+            <h1>Les évênements aléatoires</h1>
+            <section>
+                <p>lors d'une partie certaines cases contiennent un évênement aléatoire.</p>
+                <p>Ces évênements ont des éfaits variant de l'ajout de cartes dans son deck à gagner des reliques en passant par des quêtes</p>
+                <p>Voici quelques exemples</p>
+            </section>
+            <section >
+                <h2>Ceci ou cela ?</h2>
+                <p>Cette évênement peut se produire dans tous les actes du jeu</p>
+                <div>
+                    <h3>texte de l'évênement</h3>
+                    <p>Des bras jaillissent soudainement d’un trou dans le sol, tenant d’une part un un sac suspect rempli de richesses et d’autre part une relique clairement maudite.</p>
+                    <p>« Ceci... ou Cela ? »</p>
+                    <p>chuchote une voix rauque d’en-dessous.</p>
+                </div>
+                <div>
+                    <h3>Choix 1</h3>
+                    <p>Cela</p>
+                    <p>Ajoutez Maladresse à votre Deck. Obtenez une Relique aléatoire.</p>
+                    <div class="conteneur">
+                        <img class="carte" src="../img/maladresse.png" alt="maladresse.png">
+                    </div>
+                    
+                </div>
+                <div>
+                    <h3>Choix 2</h3>
+                    <p>Ceci</p>
+                    <p>Perdez 6 PV. Recevez 41-69 Pièces d’or.</p>
+                </div>
+            </section>
+            <section>
+                <h2>Balise engloutie</h2>
+                <p>Cette évênement peut se produire dans les <a href="#Underdocks">bas-quais de l'acte 1</a></p>
+                <div>
+                    <h3>texte de l'évênement</h3>
+                    <p>Après avoir traversé un paysage onirique d’eaux calmes et de rochers, vous émergez face à un phare en train de s'enfoncer dans la boue et qui émet une lueur d'anti-lumière.</p>
+                    <p>Vous pouvez mettre en bouteille un peu du liquide faiblement luminescent qui s’est accumulé ici, ou bien vous pouvez tenter d’atteindre le sommet du phare afin d’en récupérer la lentille.</p>
+                </div>
+                <div>
+                    <h3>Choix 1</h3>
+                    <p>Mettre en bouteille</p>
+                    <p>Récupérez Potion luminescente.</p>
+                    <div class="conteneur">
+                        <img src="../img/potion_lumi.png" alt="potion_lumi.png">
+                    </div>
+                </div>
+                <div>
+                    <h3>Choix 2</h3>
+                    <p>Gravir le phare</p>
+                    <p>Obtenez Lentille de Fresnel. Perdez 13 PV Max.</p>
+                    <div class="conteneur">
+                        <img class="relique" src="../img/lentille_fresnel.png" alt="lentille_fresnel.png">
+                    </div>
+                </div>
+            </section>
+            <section>
+                <h2>Tas de déchets</h2>
+                <p>Cette évênement peut se produire dans les <a href="#Underdocks">bas-quais de l'acte 1</a></p>
+                <div>
+                    <h3>texte de l'évênement</h3>
+                    <p>Vous découvrez un gigantesque tas d’armes et de breloques abandonnées, ainsi que toutes sortes de babioles insolites. Le tas paraît vibrer et se mouvoir, comme s’il grandissait de l’intérieur...</p>
+                    <p>Si vous cherchez en surface, vous trouverez sans doute des objets de valeur. Mais si vous fouillez plus en profondeur, vous pourriez trouver des trésors exotiques.</p>
+                </div>
+                <div>
+                    <h3>Choix 1</h3>
+                    <p>Fouiller au fond</p>
+                    <p>Perdez 8 PV. Obtenez une Relique du passé aléatoire.</p>
+                </div>
+                <div>
+                    <h3>Choix 2</h3>
+                    <p>Ramasser de la camelote</p>
+                    <p>Récupérez 100 Pièces d’or. Obtenez une carte aléatoire du passé .</p>
+                </div>
+            </section>
+            <section>
+                <h2>Sangsue cérébrale</h2>
+                <p>Cette évênement peut se produire dans l'<a href="#Acte1">acte 1</a> ou l'<a href="#Acte2">acte 2</a> </p>
+                <div>
+                    <h3>texte de l'évênement</h3>
+                    <p>*poum*</p>
+                    <p>Vous ressentez une douleur aiguë sur le dessus du crâne tandis qu’une pensée poignarde votre esprit.</p>
+                    <p>« PARTAGER CONNAISSANCE ??? »</p>
+                    <p>Vous hésitez sur la marche à suivre...</p>
+                </div>
+                <div>
+                    <h3>Choix 1</h3>
+                    <p>Arracher la sangsue</p>
+                    <p>Perdez 5 PV. Recevez une récompense de carte Incolore.</p>
+                </div>
+                <div>
+                    <h3>Choix 2</h3>
+                    <p>Partager la connaissance</p>
+                    <p>Choisissez 1 parmi 5 cartes aléatoires à ajouter à votre Deck.</p>
+                </div>
+            </section>
+            <section>
+                <h2>Tueur d’insectes</h2>
+                <p>Cette évênement peut se produire dans l'<a href="#Acte2">acte 2</a> </p>
+                <div>
+                    <h3>texte de l'évênement</h3>
+                    <p>Alors que vous affrontez un essaim d’insectes agressifs, vous remarquez soudain qu’un Puissant Guerrier à l’allure rude combattait à vous côtés depuis le début !</p>
+                    <p>Sentant venir la défaite, les insectes s’éparpillent. Vous vous tournez vers votre nouveau compagnon.</p>
+                    <p>« Veux-tu quelques conseils pour exterminer ces nuisibles ? »</p>
+                    <p>Quelle courtoisie. Vous acceptez son offre d’un hochement de la tête.</p>
+                </div>
+                <div>
+                    <h3>Choix 1</h3>
+                    <p>Apprendre la Technique d’Extermination</p>
+                    <p>Ajoutez Extermination à votre Deck.</p>
+                    <div class="conteneur">
+                        <img class="carte" src="../img/extermination.png" alt="extermination.png">
+                    </div>
+                </div>
+                <div>
+                    <h3>Choix 2</h3>
+                    <p>Apprendre la Technique d’Aplatissement</p>
+                    <p>Ajoutez Aplatissement à votre Deck.</p>
+                    <div class="conteneur">
+                        <img class="carte" src="../img/applatissement.png" alt="applatissement.png">
+                    </div>
+                </div>
+            </section>
+            <section>
+                <h2>Automate infesté</h2>
+                <p>Cette évênement peut se produire dans l'<a href="#Acte2">acte 2</a> </p>
+                <div>
+                    <h3>texte de l'évênement</h3>
+                    <p>Vous arrivez dans une salle remplie de robots morts.</p>
+                    <p>Un seul automate paraît encore en service, mais son cœur faiblement lumineux est englouti par une excroissance organique grotesque, et il ne réagit plus.</p>
+                </div>
+                <div>
+                    <h3>Choix 1</h3>
+                    <p>Étudier</p>
+                    <p>Obtenez un Pouvoir aléatoire.</p>
+                </div>
+                <div>
+                    <h3>Choix 2</h3>
+                    <p>Toucher le cœur</p>
+                    <p>Obtenez une carte de coût 0 aléatoire.</p>
+                </div>
+            </section>
+            <section>
+                <h2>Affamé de champignons</h2>
+                <p>Cette évênement peut se produire dans l'<a href="#Acte3">acte 3</a> </p>
+                <div>
+                    <h3>texte de l'évênement</h3>
+                    <p>Depuis combien de temps n’avez-vous rien mangé ?</p>
+                    <p>... attends, d’où vient cette odeur incroyable ?</p>
+                    <p>Vous suivez l’odeur et arrivez dans un campement accueillant où cuisent toutes sortes de champignons appétissants ! Vous avez si faim que vous ne vous préoccupez pas de leur innocuité.</p>
+                    <p>(Si faim que vous ne remarquez même pas l’aventurier mort qui gît à terre.)</p>
+                </div>
+                <div>
+                    <h3>Choix 1</h3>
+                    <p>Gros champignon</p>
+                    <p>Obtenez Gros champignon.</p>
+                    <p>Lorsque vous obtenez cette relique, augmentez vos PV Max de 20. Au début de chaque combat, vous piochez 2 cartes en moins.</p>
+                    <div class="conteneur">
+                        <img class="relique" src="../img/gros_champi.png" alt="gros_champi.png">
+                    </div>
+                </div>
+                <div>
+                    <h3>Choix 2</h3>
+                    <p>Champignon aromatique</p>
+                    <p>Obtenez Champignon aromatique.</p>
+                    <p>Lorsque vous obtenez cette relique, perdez 15 PV et Améliorez 3 cartes aléatoires.</p>
+                    <div class="conteneur">
+                        <img class="relique" src="../img/champi_aro.png" alt="champi_aro.png">
+                    </div>
+                    
+                </div>
+            </section>
         </main>
         
 
